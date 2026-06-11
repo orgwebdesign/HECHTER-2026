@@ -4140,9 +4140,21 @@ textarea.form-input {
     }
 
     .hero {
+<<<<<<< HEAD
         min-height: 88vh;
         padding-top: 148px;
         padding-bottom: 5rem;
+=======
+<<<<<<< HEAD
+        min-height: auto;
+        padding-top: 118px;
+        padding-bottom: 4.5rem;
+=======
+        min-height: 88vh;
+        padding-top: 148px;
+        padding-bottom: 5rem;
+>>>>>>> 8cb5453 (Initial commit)
+>>>>>>> 7384d73 (Merge GitHub changes)
         align-items: flex-end;
         background-attachment: scroll;
     }
@@ -4193,9 +4205,21 @@ textarea.form-input {
     }
 
     .hero {
+<<<<<<< HEAD
         min-height: 84vh;
         padding-top: 138px;
         padding-bottom: 4rem;
+=======
+<<<<<<< HEAD
+        min-height: auto;
+        padding-top: 108px;
+        padding-bottom: 3.5rem;
+=======
+        min-height: 84vh;
+        padding-top: 138px;
+        padding-bottom: 4rem;
+>>>>>>> 8cb5453 (Initial commit)
+>>>>>>> 7384d73 (Merge GitHub changes)
     }
 
     .hero-subtitle {
@@ -4417,9 +4441,20 @@ textarea.form-input {
     }
 
     .hero {
+<<<<<<< HEAD
         min-height: 80vh;
         padding-top: 128px;
         padding-bottom: 3rem;
+=======
+<<<<<<< HEAD
+        padding-top: 98px;
+        padding-bottom: 2.5rem;
+=======
+        min-height: 80vh;
+        padding-top: 128px;
+        padding-bottom: 3rem;
+>>>>>>> 8cb5453 (Initial commit)
+>>>>>>> 7384d73 (Merge GitHub changes)
     }
 
     .hero h1,
@@ -4505,7 +4540,15 @@ textarea.form-input {
     }
 
     .hero-content {
+<<<<<<< HEAD
         padding: 1rem 0;
+=======
+<<<<<<< HEAD
+        padding: 0.75rem 0;
+=======
+        padding: 1rem 0;
+>>>>>>> 8cb5453 (Initial commit)
+>>>>>>> 7384d73 (Merge GitHub changes)
     }
 
     .hero-subtitle {

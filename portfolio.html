@@ -24,7 +24,6 @@
             </div>
         </div>
     </div>
-
     <!-- Header -->
     <header class="header" id="header" data-header-theme="dark">
         <div class="container header-container">
@@ -32,17 +31,17 @@
                 <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
             </a>
             <nav class="main-nav">
-                <a href="index.html">Accueil</a>
-                <a href="materiel.html">Parc Machines</a>
-                <a href="prestations.html">Prestations</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="about.html">À propos</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="materiel.html" class="nav-link">Parc Machines</a>
+                <a href="prestations.html" class="nav-link">Prestations</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="about.html" class="nav-link">À propos</a>
+                <a href="contact.html" class="nav-link">Contact</a>
             </nav>
             <div class="header-actions">
                 <button class="header-icon-btn" aria-label="Recherche"><i data-lucide="search"></i></button>
                 <a href="contact.html" class="header-icon-btn" aria-label="Contact"><i data-lucide="mail"></i></a>
-                <button class="menu-toggle" id="mega-menu-btn" aria-label="Ouvrir le menu">
+                <button class="menu-toggle" id="mega-menu-btn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mega-menu">
                     <i data-lucide="menu"></i>
                     <span class="menu-text">MENU</span>
                 </button>
@@ -51,7 +50,7 @@
     </header>
 
     <!-- Mega Menu -->
-    <div class="mega-menu" id="mega-menu">
+    <div class="mega-menu" id="mega-menu" aria-hidden="true">
         <div class="mega-menu-header container">
             <a href="index.html" class="logo">
                 <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
@@ -66,56 +65,102 @@
             </div>
         </div>
         <div class="container mega-menu-content">
-            <div class="grid grid-4 mega-menu-grid">
-                <div class="menu-col">
-                    <h3><a href="about.html">L'entreprise</a></h3>
-                    <ul>
-                        <li><a href="about.html">Présentation</a></li>
-                        <li><a href="about.html">L'histoire</a></li>
-                        <li><a href="about.html#carrieres">Notre équipe</a></li>
-                        <li><a href="about.html">Nos valeurs</a></li>
-                    </ul>
-                </div>
-                <div class="menu-col">
-                    <h3><a href="services.html">Nos métiers</a></h3>
-                    <ul>
-                        <li><a href="services.html">Savoir-faire</a></li>
-                        <li><a href="machines.html">Prépresse</a></li>
-                        <li><a href="machines.html">Impression</a></li>
-                        <li><a href="machines.html">Façonnage</a></li>
-                    </ul>
-                </div>
-                <div class="menu-col">
-                    <h3><a href="services.html">Nos produits</a></h3>
-                    <ul>
-                        <li><a href="services.html#edition">Édition & Beaux Livres</a></li>
-                        <li><a href="services.html#packaging">Packaging Premium</a></li>
-                        <li><a href="services.html">Communication Corporate</a></li>
-                        <li><a href="services.html">Grand Format</a></li>
-                    </ul>
-                </div>
-                <div class="menu-col">
-                    <h3><a href="contact.html">Contact & Devis</a></h3>
-                    <ul>
-                        <li><a href="contact.html">Nous contacter</a></li>
-                        <li><a href="portfolio.html">Nos Réalisations</a></li>
-                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
-                        <li><a href="politique-confidentialite.html">Confidentialité</a></li>
-                    </ul>
+            <div class="mega-menu-shell">
+                <aside class="mega-menu-aside">
+                    <span class="mega-menu-kicker">Navigation HECHTER</span>
+                    <h2>Un menu plus clair, pensé pour tous les écrans.</h2>
+                    <p>Accédez rapidement à l'ensemble du site, aux expertises de production et aux pages clés de contact depuis une seule interface.</p>
+
+                    <div class="mega-menu-feature">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" alt="Atelier de production">
+                        <div class="mega-menu-feature-copy">
+                            <span>Production industrielle</span>
+                            <strong>Offset H-UV, numérique HD et finition intégrée.</strong>
+                        </div>
+                    </div>
+
+                    <div class="mega-menu-primary-links">
+                        <a href="index.html" class="mega-primary-link">Accueil</a>
+                        <a href="materiel.html" class="mega-primary-link">Parc Machines</a>
+                        <a href="prestations.html" class="mega-primary-link">Prestations</a>
+                        <a href="portfolio.html" class="mega-primary-link">Portfolio</a>
+                        <a href="about.html" class="mega-primary-link">À propos</a>
+                        <a href="contact.html" class="mega-primary-link">Contact</a>
+                    </div>
+                </aside>
+
+                <div class="mega-menu-grid">
+                    <article class="menu-col menu-panel">
+                        <div class="menu-panel-top">
+                            <span class="menu-panel-index">01</span>
+                            <h3><a href="about.html">Entreprise</a></h3>
+                        </div>
+                        <p>Découvrez l'identité HECHTER, l'histoire de l'imprimerie et les engagements qui structurent notre production.</p>
+                        <ul>
+                            <li><a href="about.html">Présentation</a></li>
+                            <li><a href="about.html">Notre histoire</a></li>
+                            <li><a href="about.html#carrieres">Équipe & talents</a></li>
+                            <li><a href="about.html">Valeurs & qualité</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-col menu-panel">
+                        <div class="menu-panel-top">
+                            <span class="menu-panel-index">02</span>
+                            <h3><a href="materiel.html">Parc Machines</a></h3>
+                        </div>
+                        <p>Retrouvez les capacités industrielles, l'offset H-UV, le numérique HD et tout le façonnage intégré.</p>
+                        <ul>
+                            <li><a href="materiel.html#production-capacity">Capacités de production</a></li>
+                            <li><a href="materiel.html#printing-equipment">Impression offset</a></li>
+                            <li><a href="materiel.html#printing-equipment">Impression numérique</a></li>
+                            <li><a href="materiel.html#finishing-equipment">Finition & façonnage</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-col menu-panel">
+                        <div class="menu-panel-top">
+                            <span class="menu-panel-index">03</span>
+                            <h3><a href="prestations.html">Expertises</a></h3>
+                        </div>
+                        <p>Explorez les prestations éditoriales, packaging premium et supports corporate ou grand format.</p>
+                        <ul>
+                            <li><a href="prestations.html#edition">Édition & beaux livres</a></li>
+                            <li><a href="prestations.html#packaging">Packaging premium</a></li>
+                            <li><a href="prestations.html#communication">Communication corporate</a></li>
+                            <li><a href="prestations.html#grand-format">Grand format</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="menu-col menu-panel">
+                        <div class="menu-panel-top">
+                            <span class="menu-panel-index">04</span>
+                            <h3><a href="contact.html">Ressources</a></h3>
+                        </div>
+                        <p>Accédez aux pages utiles pour échanger avec l'équipe, voir les réalisations et consulter les mentions du site.</p>
+                        <ul>
+                            <li><a href="contact.html">Demander un devis</a></li>
+                            <li><a href="portfolio.html">Voir le portfolio</a></li>
+                            <li><a href="mentions-legales.html">Mentions légales</a></li>
+                            <li><a href="politique-confidentialite.html">Confidentialité</a></li>
+                        </ul>
+                    </article>
                 </div>
             </div>
             <div class="mega-menu-bottom">
-                <div class="menu-image-box">
-                    <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=600&auto=format&fit=crop" alt="Site de production">
-                    <h4>Site de production</h4>
-                </div>
+                <a href="contact.html" class="mega-menu-cta">
+                    <span class="mega-menu-cta-label">Parlons de votre projet</span>
+                    <strong>Contact & devis rapide</strong>
+                </a>
                 <div class="menu-bottom-links">
-                    <a href="contact.html">📍 Nos implantations</a>
-                    <a href="#">🛠 Support technique</a>
+                    <a href="portfolio.html"><i data-lucide="layout-grid"></i> Réalisations</a>
+                    <a href="about.html"><i data-lucide="building-2"></i> L'entreprise</a>
+                    <a href="contact.html"><i data-lucide="map-pinned"></i> Nos implantations</a>
                 </div>
             </div>
         </div>
     </div>
+
 
     <main>
         <!-- Sub-hero Section -->
