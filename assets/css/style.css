@@ -2000,6 +2000,13 @@ textarea.form-input {
     color: var(--color-surface);
 }
 
+.social-links img {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    object-fit: contain;
+}
+
 .social-links a:hover {
     background: rgba(17, 121, 184, 0.16);
 }
