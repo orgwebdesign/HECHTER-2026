@@ -621,165 +621,44 @@ body.mega-menu-open .menu-toggle .menu-text {
     padding: 2.5rem 0 2rem 0;
 }
 
-.mega-menu-shell {
+.mega-menu-topnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mega-menu-toplink {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid transparent;
+    color: var(--color-surface);
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.mega-menu-toplink:hover,
+.mega-menu-toplink:focus-visible {
+    color: var(--color-primary);
+    border-bottom-color: rgba(70, 157, 221, 0.4);
+}
+
+.mega-menu-grid-simple {
     display: grid;
-    grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.7fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
-    padding-bottom: 2.4rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 2rem;
-}
-
-.mega-menu-aside {
-    color: var(--color-surface);
-    padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 28px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03));
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
-}
-
-.mega-menu-kicker {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.64);
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.16em;
-}
-
-.mega-menu-aside h2 {
-    color: var(--color-surface);
-    font-size: clamp(2rem, 3vw, 3.2rem);
-    line-height: 1.02;
-    margin-bottom: 1rem;
-}
-
-.mega-menu-aside p {
-    color: rgba(255, 255, 255, 0.74);
-    margin-bottom: 1.5rem;
-    max-width: 34ch;
-}
-
-.mega-menu-feature {
-    display: grid;
-    grid-template-columns: 112px minmax(0, 1fr);
-    gap: 1rem;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 22px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    margin-bottom: 1.5rem;
-}
-
-.mega-menu-feature img {
-    width: 100%;
-    height: 112px;
-    object-fit: cover;
-    border-radius: 16px;
-}
-
-.mega-menu-feature-copy span {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: var(--color-primary);
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-}
-
-.mega-menu-feature-copy strong {
-    color: var(--color-surface);
-    font-size: 1rem;
-    line-height: 1.4;
-}
-
-.mega-menu-primary-links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.85rem;
-}
-
-.mega-primary-link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 56px;
-    padding: 0.95rem 1rem;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    color: var(--color-surface);
-    font-size: 0.95rem;
-    font-weight: 700;
-}
-
-.mega-primary-link:hover,
-.mega-primary-link:focus-visible {
-    color: var(--color-surface);
-    background: rgba(17, 121, 184, 0.18);
-    border-color: rgba(70, 157, 221, 0.34);
-    transform: translateY(-1px);
-}
-
-.mega-primary-link::after {
-    content: "01";
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 0.82rem;
-    font-weight: 700;
-}
-
-.mega-primary-link:nth-child(2)::after { content: "02"; }
-.mega-primary-link:nth-child(3)::after { content: "03"; }
-.mega-primary-link:nth-child(4)::after { content: "04"; }
-.mega-primary-link:nth-child(5)::after { content: "05"; }
-.mega-primary-link:nth-child(6)::after { content: "06"; }
-
-.mega-menu-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.35rem;
-}
-
-.menu-panel {
-    padding: 1.6rem;
-    border-radius: 24px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03));
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    min-height: 100%;
-}
-
-.menu-panel-top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.menu-panel-index {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 14px;
-    background: rgba(17, 121, 184, 0.18);
-    color: var(--color-primary);
-    font-size: 0.88rem;
-    font-weight: 800;
-    flex-shrink: 0;
 }
 
 .menu-col h3 {
     color: white;
-    font-size: clamp(1.5rem, 2vw, 2rem);
-    line-height: 1.05;
-    margin-bottom: 0;
+    font-size: clamp(1.35rem, 1.8vw, 1.8rem);
+    line-height: 1.1;
+    margin-bottom: 0.85rem;
 }
 
 .menu-col h3 a {
@@ -795,19 +674,19 @@ body.mega-menu-open .menu-toggle .menu-text {
 .menu-col ul {
     list-style: none;
     padding: 0;
-    margin: 1.25rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .menu-col li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.7rem;
 }
 
 .menu-col a {
     color: rgba(255, 255, 255, 0.78);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.98rem;
     font-weight: 600;
-    transition: color 0.3s, transform 0.3s;
+    transition: color 0.3s;
     display: inline-flex;
     align-items: center;
     gap: 0.65rem;
@@ -815,7 +694,6 @@ body.mega-menu-open .menu-toggle .menu-text {
 
 .menu-col a:hover {
     color: var(--color-primary);
-    transform: translateX(4px);
 }
 
 .menu-col li a::before {
@@ -835,43 +713,12 @@ body.mega-menu-open .menu-toggle .menu-text {
 .menu-col p {
     color: rgba(255, 255, 255, 0.68);
     margin-bottom: 0;
+    font-size: 0.94rem;
+    line-height: 1.7;
 }
 
 .mega-menu-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.mega-menu-cta {
-    min-width: min(100%, 360px);
-    padding: 1.25rem 1.4rem;
-    border-radius: 22px;
-    background: linear-gradient(135deg, rgba(17, 121, 184, 0.2), rgba(70, 157, 221, 0.1));
-    border: 1px solid rgba(70, 157, 221, 0.25);
-    color: var(--color-surface);
-    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.14);
-}
-
-.mega-menu-cta:hover {
-    color: var(--color-surface);
-    border-color: rgba(255, 255, 255, 0.32);
-}
-
-.mega-menu-cta-label {
-    display: block;
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    margin-bottom: 0.45rem;
-}
-
-.mega-menu-cta strong {
-    font-size: 1.2rem;
-    line-height: 1.2;
+    display: none;
 }
 
 .menu-bottom-links {
@@ -908,10 +755,7 @@ body.mega-menu-open .menu-toggle .menu-text {
     .header {
         top: 40px;
     }
-    .mega-menu-shell {
-        grid-template-columns: 1fr;
-    }
-    .mega-menu-grid {
+    .mega-menu-grid-simple {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
@@ -4140,21 +3984,9 @@ textarea.form-input {
     }
 
     .hero {
-<<<<<<< HEAD
-        min-height: 88vh;
-        padding-top: 148px;
-        padding-bottom: 5rem;
-=======
-<<<<<<< HEAD
-        min-height: auto;
-        padding-top: 118px;
-        padding-bottom: 4.5rem;
-=======
-        min-height: 88vh;
-        padding-top: 148px;
-        padding-bottom: 5rem;
->>>>>>> 8cb5453 (Initial commit)
->>>>>>> 7384d73 (Merge GitHub changes)
+        min-height: 94vh;
+        padding-top: 172px;
+        padding-bottom: 5.5rem;
         align-items: flex-end;
         background-attachment: scroll;
     }
@@ -4176,12 +4008,7 @@ textarea.form-input {
         padding-top: 1.75rem;
     }
 
-    .mega-menu-aside {
-        padding: 1.5rem;
-    }
-
-    .mega-menu-primary-links,
-    .mega-menu-grid {
+    .mega-menu-grid-simple {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -4205,21 +4032,9 @@ textarea.form-input {
     }
 
     .hero {
-<<<<<<< HEAD
-        min-height: 84vh;
-        padding-top: 138px;
-        padding-bottom: 4rem;
-=======
-<<<<<<< HEAD
-        min-height: auto;
-        padding-top: 108px;
-        padding-bottom: 3.5rem;
-=======
-        min-height: 84vh;
-        padding-top: 138px;
-        padding-bottom: 4rem;
->>>>>>> 8cb5453 (Initial commit)
->>>>>>> 7384d73 (Merge GitHub changes)
+        min-height: 90vh;
+        padding-top: 158px;
+        padding-bottom: 4.5rem;
     }
 
     .hero-subtitle {
@@ -4390,43 +4205,14 @@ textarea.form-input {
         gap: 0.75rem;
     }
 
-    .mega-menu-shell {
-        gap: 1.25rem;
-        padding-bottom: 1.5rem;
-        margin-bottom: 1.5rem;
+    .mega-menu-topnav {
+        gap: 0.5rem 0.85rem;
+        padding-bottom: 1.15rem;
+        margin-bottom: 1.25rem;
     }
 
-    .mega-menu-primary-links,
-    .mega-menu-grid {
+    .mega-menu-grid-simple {
         grid-template-columns: 1fr;
-    }
-
-    .mega-menu-aside,
-    .menu-panel {
-        padding: 1.2rem;
-        border-radius: 20px;
-    }
-
-    .mega-menu-aside h2 {
-        font-size: clamp(1.65rem, 8vw, 2.2rem);
-    }
-
-    .mega-menu-feature {
-        grid-template-columns: 1fr;
-    }
-
-    .mega-menu-feature img {
-        height: 180px;
-    }
-
-    .mega-primary-link,
-    .menu-bottom-links a,
-    .mega-menu-cta {
-        width: 100%;
-    }
-
-    .mega-menu-bottom {
-        align-items: stretch;
     }
 
     .header-icon-btn svg,
@@ -4441,20 +4227,9 @@ textarea.form-input {
     }
 
     .hero {
-<<<<<<< HEAD
-        min-height: 80vh;
-        padding-top: 128px;
-        padding-bottom: 3rem;
-=======
-<<<<<<< HEAD
-        padding-top: 98px;
-        padding-bottom: 2.5rem;
-=======
-        min-height: 80vh;
-        padding-top: 128px;
-        padding-bottom: 3rem;
->>>>>>> 8cb5453 (Initial commit)
->>>>>>> 7384d73 (Merge GitHub changes)
+        min-height: 86vh;
+        padding-top: 148px;
+        padding-bottom: 3.5rem;
     }
 
     .hero h1,
@@ -4539,16 +4314,14 @@ textarea.form-input {
         font-size: clamp(2.05rem, 11vw, 2.7rem);
     }
 
+    .hero {
+        min-height: 88vh;
+        padding-top: 152px;
+        padding-bottom: 3.25rem;
+    }
+
     .hero-content {
-<<<<<<< HEAD
         padding: 1rem 0;
-=======
-<<<<<<< HEAD
-        padding: 0.75rem 0;
-=======
-        padding: 1rem 0;
->>>>>>> 8cb5453 (Initial commit)
->>>>>>> 7384d73 (Merge GitHub changes)
     }
 
     .hero-subtitle {
