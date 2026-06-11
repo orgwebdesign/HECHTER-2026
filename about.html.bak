@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez HECHTER : histoire, valeurs et équipe d'une imprimerie centenaire dédiée à l'excellence.">
+    <title>Le Groupe | HECHTER — Imprimerie Industrielle</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-left">
+                <span class="top-bar-item"><i data-lucide="award"></i> Qualité Premium</span>
+                <span class="top-bar-item"><i data-lucide="settings"></i> Notre parc machines</span>
+                <span class="top-bar-item"><i data-lucide="git-branch"></i> Développement durable</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="contact.html" class="top-bar-item transfer-link"><i data-lucide="refresh-cw" class="transfer-icon"></i> Contactez-nous</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header" data-header-theme="dark">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
+            </a>
+
+            <nav class="main-nav">
+                
+                <a href="index.html">Accueil</a>
+                <a href="materiel.html">Parc Machines</a>
+                <a href="prestations.html">Prestations</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">À propos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="header-icon-btn" aria-label="Recherche"><i data-lucide="search"></i></button>
+                <a href="contact.html" class="header-icon-btn" aria-label="Contact"><i data-lucide="mail"></i></a>
+                <button class="menu-toggle" id="mega-menu-btn" aria-label="Ouvrir le menu">
+                    <i data-lucide="menu"></i>
+                    <span class="menu-text">MENU</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mega Menu -->
+    <div class="mega-menu" id="mega-menu">
+        <div class="mega-menu-header container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
+            </a>
+            <div class="header-actions">
+                <button class="header-icon-btn" aria-label="Recherche"><i data-lucide="search"></i></button>
+                <a href="contact.html" class="header-icon-btn" aria-label="Contact"><i data-lucide="mail"></i></a>
+                <button class="menu-close-btn" id="mega-menu-close" aria-label="Fermer le menu">
+                    <i data-lucide="x" class="close-icon"></i>
+                    <span class="menu-text">FERMER</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container mega-menu-content">
+            <div class="grid grid-4 mega-menu-grid">
+
+                <!-- Column 1 -->
+                <div class="menu-col">
+                    <h3><a href="about.html">À propos</a></h3>
+                    <ul>
+                        <li><a href="about.html">Présentation</a></li>
+                        <li><a href="about.html">L'histoire</a></li>
+                        <li><a href="about.html#carrieres">Notre équipe</a></li>
+                        <li><a href="about.html">Nos valeurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="menu-col">
+                    <h3><a href="materiel.html">Parc Machines</a></h3>
+                    <ul>
+                        <li><a href="materiel.html">Savoir-faire</a></li>
+                        <li><a href="machines.html">Prépresse</a></li>
+                        <li><a href="machines.html">Impression</a></li>
+                        <li><a href="machines.html">Façonnage</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="menu-col">
+                    <h3><a href="prestations.html">Prestations</a></h3>
+                    <ul>
+                        <li><a href="prestations.html#edition">Édition & Beaux Livres</a></li>
+                        <li><a href="prestations.html#packaging">Packaging Premium</a></li>
+                        <li><a href="prestations.html">Communication Corporate</a></li>
+                        <li><a href="prestations.html">Grand Format</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="menu-col">
+                    <h3><a href="contact.html">Contact & Devis</a></h3>
+                    <ul>
+                        <li><a href="contact.html">Nous contacter</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="politique-confidentialite.html">Confidentialité</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mega-menu-bottom">
+                <div class="menu-image-box">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" alt="Site de production" loading="lazy">
+                    <h4>Site de production</h4>
+                </div>
+
+                <div class="menu-bottom-links">
+                    <a href="contact.html">📍 Nos implantations</a>
+                    <a href="#">🛠 Support technique</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Sub-hero Section -->
+        <section class="sub-hero">
+            <div class="container">
+                <h1 class="sub-hero-title">L'entreprise</h1>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li>about</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 1. Historique de l’imprimerie -->
+        <section class="section light">
+            <div class="container about-grid">
+                <div class="about-section-label reveal">01 — Historique</div>
+                <div class="reveal reveal-delay-1">
+                    <h2 class="section-title">Historique de l’imprimerie</h2>
+                    <p class="about-intro">Depuis ses origines, HECHTER évolue avec les usages de l’édition, de la communication et du packaging tout en conservant une exigence artisanale sur le rendu final.</p>
+                </div>
+
+                <div class="about-timeline-grid">
+                    <div class="about-timeline">
+                        <article class="about-timeline-item">
+                            <time class="about-timeline-year">Années 1920</time>
+                            <h3>Fondation de l'atelier</h3>
+                            <p>Début de l’activité dans un petit atelier parisien, axé sur l’impression typographique et la reliure artisanale.</p>
+                        </article>
+                        <article class="about-timeline-item">
+                            <time class="about-timeline-year">Années 1960</time>
+                            <h3>Évolution vers l'offset</h3>
+                            <p>Investissement dans les premières machines offset et développement progressif des capacités de production.</p>
+                        </article>
+                        <article class="about-timeline-item">
+                            <time class="about-timeline-year">Années 1990</time>
+                            <h3>Expansion numérique</h3>
+                            <p>Intégration des flux numériques et modernisation du prépresse pour répondre aux nouveaux besoins clients.</p>
+                        </article>
+                        <article class="about-timeline-item">
+                            <time class="about-timeline-year">Aujourd’hui</time>
+                            <h3>Industrie 4.0 et packaging premium</h3>
+                            <p>Parc machine de dernière génération, contrôle qualité automatisé et expertise packaging haut de gamme.</p>
+                        </article>
+                    </div>
+
+                    <div class="about-timeline-image">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" alt="Presse d'imprimerie industrielle en production" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Valeurs et engagement -->
+        <section class="section dark about-values-section">
+            <div class="container">
+                <div class="about-section-label reveal">02 — Valeurs</div>
+                <div class="reveal reveal-delay-1">
+                    <h2 class="section-title">Valeurs et engagement</h2>
+                    <p class="about-intro">Nos équipes travaillent avec une même ligne directrice : produire juste, répondre vite et construire une relation de proximité avec chaque client.</p>
+                </div>
+
+                <div class="about-values-grid">
+                    <div class="about-value-card reveal">
+                        <div class="about-value-icon"><i data-lucide="shield-check"></i></div>
+                        <h3>Qualité</h3>
+                        <p>Contrôle rigoureux à chaque étape, des fichiers à la livraison, pour garantir un rendu fidèle et durable.</p>
+                    </div>
+                    <div class="about-value-card reveal reveal-delay-1">
+                        <div class="about-value-icon"><i data-lucide="briefcase"></i></div>
+                        <h3>Professionnalisme</h3>
+                        <p>Conseil, suivi et exécution dans le respect des standards les plus exigeants de l’imprimerie industrielle.</p>
+                    </div>
+                    <div class="about-value-card reveal reveal-delay-2">
+                        <div class="about-value-icon"><i data-lucide="zap"></i></div>
+                        <h3>Réactivité</h3>
+                        <p>Des délais tenus grâce à une organisation de production fluide et des équipes réactives.</p>
+                    </div>
+                    <div class="about-value-card reveal reveal-delay-3">
+                        <div class="about-value-icon"><i data-lucide="handshake"></i></div>
+                        <h3>Proximité client</h3>
+                        <p>Un dialogue simple et direct, avec un interlocuteur responsable du début à la fin du projet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Savoir-faire et expertise métier -->
+        <section class="section light about-expertise-section">
+            <div class="container about-expertise-grid">
+                <div class="about-expertise-image reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80" alt="Atelier d'impression et façonnage" loading="lazy">
+                </div>
+                <div class="reveal">
+                    <div class="about-section-label">03 — Savoir-faire</div>
+                    <h2 class="section-title">Savoir-faire et expertise métier</h2>
+                    <p>HECHTER intervient sur des supports imprimés variés avec une attention particulière portée à la préparation, au choix des matières et à la régularité du résultat.</p>
+                    <ul class="about-expertise-list">
+                        <li>Compétences techniques en prépresse, impression, façonnage et contrôle.</li>
+                        <li>Domaines de spécialisation : édition, communication, packaging et grand format.</li>
+                        <li>Expérience terrain dans les contraintes industrielles et les finitions premium.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Organisation et équipe -->
+        <section class="section dark about-team-section">
+            <div class="container about-team-layout">
+                <div class="reveal">
+                    <div class="about-section-label">04 — Organisation</div>
+                    <h2 class="section-title">Organisation et équipe</h2>
+                    <p>Chaque projet mobilise des profils complémentaires afin de sécuriser la fabrication, fluidifier les échanges et garantir une production cohérente.</p>
+                    <div class="about-team-list">
+                        <div class="about-team-item">
+                            <strong>Chefs de projet</strong>
+                            <span>Coordination des demandes, respect des délais et suivi continu.</span>
+                        </div>
+                        <div class="about-team-item">
+                            <strong>Opérateurs de production</strong>
+                            <span>Spécialisés par étape métier pour une qualité optimale.</span>
+                        </div>
+                        <div class="about-team-item">
+                            <strong>Contrôle qualité</strong>
+                            <span>Vérification de la conformité avant chaque expédition.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-team-image reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80" alt="Équipe en atelier d'imprimerie" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Approche client -->
+        <section class="section light about-process-section">
+            <div class="container">
+                <div class="about-section-header reveal">
+                    <span class="home-section-label">05 — Approche client</span>
+                    <h2 class="section-title">Un accompagnement sur mesure, du premier échange jusqu'à la livraison.</h2>
+                    <p class="about-section-intro">Notre rôle ne se limite pas à imprimer. Nous vous guidons sur les supports, les finitions et les délais pour garantir un résultat cohérent avec votre image.</p>
+                </div>
+                <div class="about-process-track">
+                    <div class="about-process-card reveal" data-step="1">
+                        <div class="about-process-icon"><i data-lucide="message-square"></i></div>
+                        <div class="about-process-body">
+                            <h3>Brief &amp; Écoute</h3>
+                            <p>Nous analysons votre besoin, vos contraintes et vos objectifs pour définir ensemble la meilleure direction créative et technique.</p>
+                        </div>
+                        <div class="about-process-connector"></div>
+                    </div>
+                    <div class="about-process-card reveal reveal-delay-1" data-step="2">
+                        <div class="about-process-icon"><i data-lucide="search"></i></div>
+                        <div class="about-process-body">
+                            <h3>Conseil &amp; Faisabilité</h3>
+                            <p>Nous vérifions la faisabilité industrielle, sélectionnons les supports adaptés et validons les choix de finitions.</p>
+                        </div>
+                        <div class="about-process-connector"></div>
+                    </div>
+                    <div class="about-process-card reveal reveal-delay-2" data-step="3">
+                        <div class="about-process-icon"><i data-lucide="settings"></i></div>
+                        <div class="about-process-body">
+                            <h3>Production &amp; Suivi</h3>
+                            <p>Un point d'étape clair à chaque phase, de la validation des fichiers jusqu'au contrôle qualité final avant expédition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Qualité de service -->
+        <section class="section dark about-quality-section">
+            <div class="container">
+                <div class="about-section-label reveal">06 — Qualité de service</div>
+                <div class="reveal reveal-delay-1">
+                    <h2 class="section-title">Qualité de service</h2>
+                    <p class="about-intro">La satisfaction client repose sur une production maîtrisée, des délais tenus et une vérification rigoureuse des supports avant leur départ atelier.</p>
+                </div>
+
+                <div class="about-quality-grid">
+                    <div class="about-quality-card reveal">
+                        <strong class="count-up" data-count="98" data-suffix="%">0</strong>
+                        <span>Commandes livrées dans les délais impartis.</span>
+                    </div>
+                    <div class="about-quality-card reveal reveal-delay-1">
+                        <strong class="count-up" data-count="100" data-suffix="%">0</strong>
+                        <span>Contrôle qualité systématique sur les fichiers et les productions.</span>
+                    </div>
+                    <div class="about-quality-card reveal reveal-delay-2">
+                        <strong class="count-up" data-count="96" data-suffix="%">0</strong>
+                        <span>Taux de satisfaction client sur nos projets premium.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.svg" alt="HECHTER Logo" style="height: 48px;" onerror="this.src='assets/images/logo.png'">
+                    <p class="footer-brand-copy">Imprimerie HECHTER accompagne les marques, institutions et entreprises avec des solutions d'impression, de finition et de packaging pensées pour durer.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation rapide</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="materiel.html">Parc Machines</a></li>
+                        <li><a href="prestations.html">Prestations</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Coordonnées et contact</h4>
+                    <ul class="footer-links">
+                        <li><i data-lucide="map-pin"></i><span>123 Avenue de l'Industrie, 75000 Paris, France</span></li>
+                        <li><i data-lucide="phone"></i><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><i data-lucide="mail"></i><a href="mailto:contact@hechter-imprimerie.fr">contact@hechter-imprimerie.fr</a></li>
+                        <li><i data-lucide="clock-3"></i><span>Lun - Ven : 08:30 - 18:00</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Réseaux sociaux</h4>
+                    <div class="social-links" style="display: flex; gap: 0.85rem; margin-top: 1rem;">
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-note">&copy; <span id="year">2024</span> Imprimerie HECHTER. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="mentions-legales.html#credits">Crédits</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="assets/js/gsap-animations.js"></script>
+</body>
+</html>

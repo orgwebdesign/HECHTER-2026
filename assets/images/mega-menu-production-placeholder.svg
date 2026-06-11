@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title megamenuimgdesc">
+  <title id="title">Illustration site de production</title>
+  <desc id="megamenuimgdesc">Illustration vectorielle d'un site de production d'imprimerie moderne.</desc>
+  <rect width="1200" height="700" fill="#1f2424"/>
+  <rect x="120" y="120" width="960" height="460" rx="30" fill="#272d2d"/>
+  <rect x="200" y="220" width="260" height="220" rx="24" fill="#469ddd" opacity="0.14"/>
+  <rect x="380" y="220" width="260" height="220" rx="24" fill="#f5e500" opacity="0.12"/>
+  <rect x="560" y="220" width="260" height="220" rx="24" fill="#e6007e" opacity="0.14"/>
+  <rect x="740" y="220" width="260" height="220" rx="24" fill="#ffffff" opacity="0.08"/>
+  <text x="600" y="600" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Site de production</text>
+</svg>

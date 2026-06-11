@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title historydesc">
+  <title id="title">Atelier d'impression industriel</title>
+  <desc id="historydesc">Illustration vectorielle d'une presse d'impression dans un atelier.</desc>
+  <rect width="1200" height="800" fill="#1f2424"/>
+  <rect x="160" y="180" width="880" height="440" rx="24" fill="#272d2d"/>
+  <rect x="220" y="240" width="760" height="300" rx="16" fill="#469ddd" opacity="0.12"/>
+  <rect x="260" y="280" width="200" height="40" rx="8" fill="#e6007e"/>
+  <rect x="540" y="280" width="360" height="40" rx="8" fill="#f5e500"/>
+  <rect x="260" y="340" width="640" height="220" rx="8" fill="#fff" opacity="0.08"/>
+  <circle cx="420" cy="450" r="42" fill="#1179b8" opacity="0.85"/>
+  <circle cx="780" cy="450" r="42" fill="#e6007e" opacity="0.85"/>
+  <text x="600" y="660" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">Imprimerie industrielle</text>
+</svg>

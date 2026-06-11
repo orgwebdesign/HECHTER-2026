@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="HECHTER - Imprimerie Industrielle & Packaging Premium. Solutions d'impression de haute qualité pour l'édition, la communication et le packaging.">
+    <title>HECHTER — Imprimerie Industrielle & Packaging Premium</title>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-left">
+                <span class="top-bar-item"><i data-lucide="award"></i> Qualité Premium</span>
+                <span class="top-bar-item"><i data-lucide="settings"></i> Notre parc machines</span>
+                <span class="top-bar-item"><i data-lucide="git-branch"></i> Développement durable</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="contact.html" class="top-bar-item transfer-link"><i data-lucide="refresh-cw" class="transfer-icon"></i> Contactez-nous</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header" data-header-theme="dark">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
+            </a>
+
+            <nav class="main-nav">
+                
+                <a href="index.html">Accueil</a>
+                <a href="materiel.html">Parc Machines</a>
+                <a href="prestations.html">Prestations</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">À propos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="header-icon-btn" aria-label="Recherche"><i data-lucide="search"></i></button>
+                <a href="contact.html" class="header-icon-btn" aria-label="Contact"><i data-lucide="mail"></i></a>
+                <button class="menu-toggle" id="mega-menu-btn" aria-label="Ouvrir le menu">
+                    <i data-lucide="menu"></i>
+                    <span class="menu-text">MENU</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mega Menu -->
+    <div class="mega-menu" id="mega-menu">
+        <div class="mega-menu-header container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="HECHTER Logo" onerror="this.src='assets/images/logo.png'">
+            </a>
+            <div class="header-actions">
+                <button class="header-icon-btn" aria-label="Recherche"><i data-lucide="search"></i></button>
+                <a href="contact.html" class="header-icon-btn" aria-label="Contact"><i data-lucide="mail"></i></a>
+                <button class="menu-close-btn" id="mega-menu-close" aria-label="Fermer le menu">
+                    <i data-lucide="x" class="close-icon"></i>
+                    <span class="menu-text">FERMER</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container mega-menu-content">
+            <div class="grid grid-4 mega-menu-grid">
+
+                <!-- Column 1 -->
+                <div class="menu-col">
+                    <h3><a href="about.html">L'entreprise</a></h3>
+                    <ul>
+                        <li><a href="about.html">Présentation</a></li>
+                        <li><a href="about.html">L'histoire</a></li>
+                        <li><a href="about.html#carrieres">Notre équipe</a></li>
+                        <li><a href="about.html">Nos valeurs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="menu-col">
+                    <h3><a href="services.html">Nos métiers</a></h3>
+                    <ul>
+                        <li><a href="services.html">Savoir-faire</a></li>
+                        <li><a href="machines.html">Prépresse</a></li>
+                        <li><a href="machines.html">Impression</a></li>
+                        <li><a href="machines.html">Façonnage</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="menu-col">
+                    <h3><a href="services.html">Nos produits</a></h3>
+                    <ul>
+                        <li><a href="services.html#edition">Édition & Beaux Livres</a></li>
+                        <li><a href="services.html#packaging">Packaging Premium</a></li>
+                        <li><a href="services.html">Communication Corporate</a></li>
+                        <li><a href="services.html">Grand Format</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="menu-col">
+                    <h3><a href="contact.html">Contact & Devis</a></h3>
+                    <ul>
+                        <li><a href="contact.html">Nous contacter</a></li>
+                        <li><a href="portfolio.html">Nos Réalisations</a></li>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="politique-confidentialite.html">Confidentialité</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mega-menu-bottom">
+                <div class="menu-image-box">
+                    <img src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?q=80&w=600&auto=format&fit=crop"
+                        alt="Site de production">
+                    <h4>Site de production</h4>
+                </div>
+
+                <div class="menu-bottom-links">
+                    <a href="contact.html">📍 Nos implantations</a>
+                    <a href="#">🛠 Support technique</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- 1. Hero Section — PRESERVED -->
+        <section class="hero">
+            <div class="hero-bg">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="video/imprimerie-chirat-accueil.mp4" type="video/mp4">
+                    <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=1600&auto=format&fit=crop"
+                        alt="Presses d'impression industrielles">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container hero-content">
+                <div class="hero-shell">
+                    <div class="hero-copy">
+                        
+                        <h1 class="reveal">L'EXCELLENCE<br><span class="cmyk-text">IMPRIMÉE</span></h1>
+                        <p class="hero-subtitle reveal reveal-delay-1">Partenaire premium pour l'édition, la communication et le
+                            packaging depuis plus d'un siècle. L'alliance de l'artisanat et de la haute technologie.</p>
+                        <div class="hero-pill-row reveal reveal-delay-2">
+                            <span class="hero-pill">Offset H-UV</span>
+                            <span class="hero-pill">Numérique HD</span>
+                            <span class="hero-pill">Façonnage intégré</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Présentation synthétique de l'entreprise -->
+        <section class="section home-intro-section">
+            <div class="container home-intro-grid">
+                <div class="home-intro-image reveal reveal-delay-2">
+                    <img src="https://cdn8.futura-sciences.com/a1280/images/FotoliaRobert%20Przybysz.jpg"
+                         alt="Atelier d'impression HECHTER">
+                </div>
+                <div class="home-intro-copy reveal reveal-delay-1">
+                    <div class="home-section-label reveal">Présentation</div>
+                    <span class="home-kicker">Présentation synthétique de l'entreprise</span>
+                    <h2 class="section-title">Qui sommes-nous</h2>
+                    <p class="home-intro-lead">HECHTER est un acteur historique de l'imprimerie industrielle et du packaging premium, héritier d'un savoir-faire de plus d'un siècle. Nous concevons et produisons des imprimés qui allient exigence technique, créativité et proximité avec nos clients.</p>
+                    <p>Notre engagement : transformer chaque projet en un résultat distinctif et maîtrisé, grâce à l'expertise de nos équipes et à un parc machines à la pointe de la technologie.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Points forts / Valeurs clés -->
+        <section class="section white home-strengths-section">
+            <div class="container">
+                <div class="home-section-heading reveal">
+                    <span class="home-section-label">Points forts / Valeurs clés</span>
+                    <h2 class="section-title">Des standards solides pour chaque projet imprimé.</h2>
+                    <p class="home-section-intro">Une organisation pensée pour sécuriser vos délais, vos fichiers et la qualité finale, même sur les productions les plus sensibles.</p>
+                </div>
+                <div class="home-strengths-grid">
+                    <article class="home-strength-card reveal">
+                        <div class="home-strength-card-img">
+                            <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=600&auto=format&fit=crop" alt="Équipements professionnels">
+                        </div>
+                        <div class="home-strength-card-body">
+                            <div class="home-strength-icon-wrap"><i data-lucide="settings"></i></div>
+                            <h3>Équipements professionnels</h3>
+                            <p>Un parc de production adapté aux tirages courants, aux finitions soignées et aux supports exigeants.</p>
+                        </div>
+                    </article>
+                    <article class="home-strength-card reveal reveal-delay-1">
+                        <div class="home-strength-card-img">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=600&auto=format&fit=crop" alt="Savoir-faire reconnu">
+                        </div>
+                        <div class="home-strength-card-body">
+                            <div class="home-strength-icon-wrap"><i data-lucide="award"></i></div>
+                            <h3>Savoir-faire reconnu</h3>
+                            <p>Une équipe habituée aux contraintes de fabrication, au contrôle des fichiers et aux détails de finition.</p>
+                        </div>
+                    </article>
+                    <article class="home-strength-card reveal reveal-delay-2">
+                        <div class="home-strength-card-img">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600&auto=format&fit=crop" alt="Réactivité et proximité">
+                        </div>
+                        <div class="home-strength-card-body">
+                            <div class="home-strength-icon-wrap"><i data-lucide="zap"></i></div>
+                            <h3>Réactivité et proximité</h3>
+                            <p>Un accompagnement clair, des échanges directs et un suivi de commande pensé pour aller vite sans perdre en précision.</p>
+                        </div>
+                    </article>
+                    <article class="home-strength-card reveal reveal-delay-3">
+                        <div class="home-strength-card-img">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop" alt="Qualité de production">
+                        </div>
+                        <div class="home-strength-card-body">
+                            <div class="home-strength-icon-wrap"><i data-lucide="shield-check"></i></div>
+                            <h3>Qualité de production</h3>
+                            <p>Des imprimés nets, réguliers et contrôlés, avec une attention portée aux couleurs, matières et finitions.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Aperçu des produits principaux -->
+        <section class="section dark home-products-section">
+            <div class="container">
+                <div class="home-section-heading reveal">
+                    <div>
+                        <span class="home-section-label">Produits</span>
+                        <h2 class="section-title">Les essentiels de votre communication imprimée.</h2>
+                    </div>
+                    <a href="prestations.html" class="home-inline-link">Voir toutes les prestations</a>
+                </div>
+                <div class="home-products-marquee">
+                    <div class="home-products-track">
+                        <a href="prestations.html" class="home-product-card reveal">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=900&auto=format&fit=crop" alt="Flyers imprimés">
+                            <div class="home-product-overlay">
+                                <small>Diffusion</small><span>Flyers</span>
+                                <p>Des supports rapides à déployer pour vos campagnes, ouvertures et temps forts.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-1">
+                            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=900&auto=format&fit=crop" alt="Brochures imprimées">
+                            <div class="home-product-overlay">
+                                <small>Présentation</small><span>Brochures</span>
+                                <p>Une mise en page valorisée par des finitions propres et une tenue en main premium.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-2">
+                            <img src="https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?q=80&w=900&auto=format&fit=crop" alt="Cartes de visite">
+                            <div class="home-product-overlay">
+                                <small>Signature</small><span>Cartes de visite</span>
+                                <p>Un format court, précis et distinctif pour prolonger votre image de marque.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal">
+                            <img src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=900&auto=format&fit=crop" alt="Packaging imprimé">
+                            <div class="home-product-overlay">
+                                <small>Impact</small><span>Packaging</span>
+                                <p>Des packagings pensés pour protéger, raconter et distinguer votre produit.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-1">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=900&auto=format&fit=crop" alt="Grand format">
+                            <div class="home-product-overlay">
+                                <small>Visibilité</small><span>Grand format</span>
+                                <p>Pour la signalétique, l’événementiel et les prises de parole qui doivent marquer.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=900&auto=format&fit=crop" alt="Flyers imprimés">
+                            <div class="home-product-overlay">
+                                <small>Diffusion</small><span>Flyers</span>
+                                <p>Des supports rapides à déployer pour vos campagnes, ouvertures et temps forts.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-1">
+                            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=900&auto=format&fit=crop" alt="Brochures imprimées">
+                            <div class="home-product-overlay">
+                                <small>Présentation</small><span>Brochures</span>
+                                <p>Une mise en page valorisée par des finitions propres et une tenue en main premium.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-2">
+                            <img src="https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?q=80&w=900&auto=format&fit=crop" alt="Cartes de visite">
+                            <div class="home-product-overlay">
+                                <small>Signature</small><span>Cartes de visite</span>
+                                <p>Un format court, précis et distinctif pour prolonger votre image de marque.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal">
+                            <img src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?q=80&w=900&auto=format&fit=crop" alt="Packaging imprimé">
+                            <div class="home-product-overlay">
+                                <small>Impact</small><span>Packaging</span>
+                                <p>Des packagings pensés pour protéger, raconter et distinguer votre produit.</p>
+                            </div>
+                        </a>
+                        <a href="prestations.html" class="home-product-card reveal reveal-delay-1">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=900&auto=format&fit=crop" alt="Grand format">
+                            <div class="home-product-overlay">
+                                <small>Visibilité</small><span>Grand format</span>
+                                <p>Pour la signalétique, l’événementiel et les prises de parole qui doivent marquer.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Appels à l'action CTA -->
+        <section class="section dark home-cta-section">
+            <div class="container home-cta-grid reveal">
+                <div class="home-cta-left">
+                    <h2 class="section-title">Nous contacter</h2>
+                    <p class="home-cta-copy">Parlons de votre projet. Notre équipe vous répond dans les plus brefs délais pour étudier vos besoins.</p>
+                </div>
+                <div class="home-cta-right">
+                    <div class="home-cta-card">
+                        <h3>Vous avez un projet en tête ?</h3>
+                        <p>Demandez-nous conseil pour trouver les meilleures finitions pour votre impression.</p>
+                        <div class="home-cta-actions">
+                            <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+                            <a href="portfolio.html" class="btn btn-secondary">Découvrir nos réalisations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Bloc de réassurance -->
+        <section class="section home-reassurance-section">
+            <div class="container">
+                <div class="home-section-heading reveal">
+                    <span class="home-section-label">Bloc de réassurance</span>
+                    <h2 class="section-title">Chiffres clés &amp; Certifications</h2>
+                    <p class="home-section-intro">Des indicateurs simples pour comprendre notre niveau d’exigence, notre capacité de suivi et notre culture de fabrication.</p>
+                </div>
+                <div class="home-reassurance-grid">
+                    <div class="home-reassurance-card reveal">
+                        <div class="home-reassurance-icon"><i data-lucide="bar-chart-2"></i></div>
+                        <small>Chiffres clés</small>
+                        <strong class="count-up" data-count="100" data-suffix="+">0</strong>
+                        <span>Collaborateurs mobilisés autour de vos productions imprimées.</span>
+                    </div>
+                    <div class="home-reassurance-card reveal reveal-delay-1">
+                        <div class="home-reassurance-icon"><i data-lucide="shield-check"></i></div>
+                        <small>Certifications</small>
+                        <strong>ISO<br>9001</strong>
+                        <span>Qualité de production suivie à chaque étape pour sécuriser les projets.</span>
+                    </div>
+                    <div class="home-reassurance-card reveal reveal-delay-2">
+                        <div class="home-reassurance-icon"><i data-lucide="clock"></i></div>
+                        <small>Années d'expérience</small>
+                        <strong class="count-up" data-count="110">0</strong>
+                        <span>Années d'expérience dans les métiers de l'impression.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.svg" alt="HECHTER Logo" style="height: 48px;" onerror="this.src='assets/images/logo.png'">
+                    <p class="footer-brand-copy">Imprimerie HECHTER accompagne les marques, institutions et entreprises avec des solutions d'impression, de finition et de packaging pensées pour durer.</p>
+                    
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation rapide</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="materiel.html">Parc Machines</a></li>
+                        <li><a href="prestations.html">Prestations</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="bloc.html">Bloc</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Coordonnées et contact</h4>
+                    <ul class="footer-links">
+                        <li><i data-lucide="map-pin"></i><span>123 Avenue de l'Industrie, 75000 Paris, France</span></li>
+                        <li><i data-lucide="phone"></i><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><i data-lucide="mail"></i><a href="mailto:contact@hechter-imprimerie.fr">contact@hechter-imprimerie.fr</a></li>
+                        <li><i data-lucide="clock-3"></i><span>Lun - Ven : 08:30 - 18:00</span></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Réseaux sociaux</h4>
+                    <div class="social-links" style="display: flex; gap: 0.85rem; margin-top: 1rem;">
+                         <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                         <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                         <a href="#" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+                         <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-note">&copy; <span id="year">2024</span> Imprimerie HECHTER. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                    <a href="mentions-legales.html#credits">Crédits</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- JavaScript -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
