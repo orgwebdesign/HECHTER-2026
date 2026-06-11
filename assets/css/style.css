@@ -2041,6 +2041,13 @@ textarea.form-input {
     line-height: 1.7;
 }
 
+.footer-note a,
+.footer-note a:hover,
+.footer-note a:focus-visible {
+    color: var(--color-surface);
+    text-decoration: none;
+}
+
 .legal-page {
     background: #f6f7f8;
 }
@@ -2091,6 +2098,24 @@ textarea.form-input {
 
 .legal-section ul {
     padding-left: 1.15rem;
+}
+
+.legal-detail-list {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    gap: 0.9rem;
+}
+
+.legal-detail-list li {
+    padding: 1rem 1.1rem;
+    border: 1px solid rgba(39, 45, 45, 0.08);
+    border-radius: 12px;
+    background: rgba(17, 121, 184, 0.03);
+}
+
+.legal-detail-list strong {
+    color: var(--color-dark);
 }
 
 .legal-meta {
